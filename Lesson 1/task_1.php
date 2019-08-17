@@ -31,3 +31,5 @@ class Product {
 }
 
 $product = new Product(1, 1000001, "t-shirt", "some description for t-shirt", 100);
+
+//наследниками класса могут быть например карточки товара в корзине, т.к. там добавляется еще значение quantity
