@@ -7,7 +7,7 @@ class Product {
     public $description;
     public $price;
 
-    public function __construct($id, $vendorCode, $name, $description, $price)
+    public function __construct($id = 0, $vendorCode = 0, $name = 'nonename', $description = 'nodescription', $price = 0)
     {
         $this->id = $id;
         $this->vendorCode = $vendorCode;
