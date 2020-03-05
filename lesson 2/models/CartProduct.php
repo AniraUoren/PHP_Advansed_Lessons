@@ -30,5 +30,4 @@ class CartProduct extends Model
     public function showCartElements(){
         //вывод сохраненной пользовательской корзины
     }
-
 }
